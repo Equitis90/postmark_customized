@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Customized Postmark adapter for Griddler}
   spec.description   = %q{Allows to accept MailboxHash from Postmark response}
-  spec.homepage      = "https://github.com/Equitis90/postmark_customized_adapter"
+  spec.homepage      = "https://github.com/Equitis90/postmark_customized"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
