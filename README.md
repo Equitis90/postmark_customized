@@ -26,6 +26,9 @@ Or install it yourself as:
 Create an initializer with the following settings:
 
 ```ruby
+# Require adapter here or Griddler will be unable to find adapter for some reason
+require 'griddler/postmark_customized'
+
 Griddler.configure do |config|
   config.email_service = :postmark_customized
 end
